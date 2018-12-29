@@ -5,6 +5,7 @@ import "./SearchInput.css";
 
 class SearchInput extends PureComponent {
   handleChange = event => {
+    console.log(event.target.value);
     this.props.textChange(event);
   };
 
